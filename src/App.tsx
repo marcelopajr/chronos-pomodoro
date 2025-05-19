@@ -3,6 +3,7 @@ import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 import { Countdown } from './components/Countdown';
 import { Input } from './components/Input';
+import { Cycles } from './components/Cycles';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -33,8 +34,7 @@ export function App() {
           </div>
 
           <div className='formRow'>
-            <p>Cycles</p>
-            <p>0 0 0 0 0</p>
+            <Cycles />
           </div>
 
           <div className='formRow'>
